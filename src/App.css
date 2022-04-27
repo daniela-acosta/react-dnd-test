@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.cards {
+  margin: 64px;
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #a3a3a3;
+  border-radius: 8px;
+  width: 256px;
+  height: 356px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  background-color: #f3f3f3;
+}
+
+.files {
+  margin: 64px;
+  display: flex;
+  gap: 24px;
+}
+
+.file {
+  display: flex;
+  border: 1px solid #a3a3a3;
+  border-radius: 8px;
+  width: 128px;
+  height: 156px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.file:hover {
+  background-color: #f3f3f3;
+}
+
+.card.-droppable {
+  background-color: #61dafb;
+}
