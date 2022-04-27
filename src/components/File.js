@@ -4,6 +4,7 @@ import classNames from "classnames";
 function File({ file }) {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "file",
+    item: file,
     collect: (monitor) => ({
       isDragging: monitor.isDragging(),
     }),

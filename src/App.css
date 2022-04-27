@@ -84,3 +84,8 @@
 .card.-droppable {
   background-color: #61dafb;
 }
+
+.file.-dragging {
+  display: none;
+  cursor: grabbing;
+}
